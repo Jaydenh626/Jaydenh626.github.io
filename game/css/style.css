@@ -166,11 +166,7 @@ body{
   animation-name: tinLeftIn;
 }
   
-  #chef {
-    margin-top: -90em;
-    position: absolute;
-    
-  }
+ 
   
   .spaceInDown {
   -webkit-animation-name: spaceInDown;
@@ -194,6 +190,8 @@ body{
   #chef{
     animation-name: spaceInDown;
     animation-duration: 5s;
+    margin-top: -90em;
+    position: absolute;
   }
   
   
