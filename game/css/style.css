@@ -27,6 +27,18 @@ body {
   animation-name: vanishIn;
 }
 
+#pistol {
+    animation-name: slideDownRetourn;
+    animation-duration: 1s;
+    display: none;
+    position: absolute;
+    bottom: 0; 
+    right: 50px;
+    height: 350px;
+    width: 350px;
+    opacity: 500%;
+  }
+
 @keyframes vanishIn {
   0% {
     opacity: 0;
@@ -190,6 +202,23 @@ body {
   animation-name: spaceInDown;
   animation-duration: 5s;
   margin-top: -90em;
-  margin-left: 80em;
+  margin-left: 1000em;
   position: absolute;
+}
+
+.slideDownRetourn {
+  -webkit-animation-name: slideDownRetourn;
+  animation-name: slideDownRetourn;
+}
+
+@keyframes slideDownRetourn {
+  0% {
+    transform-origin: 0 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform-origin: 0 0;
+    transform: translateY(0%);
+  }
 }
