@@ -29,6 +29,18 @@ $(document).ready(function() {
 
 $("#kw1").click(function() {
     $("#kw1").hide();
+    $("#he").show();
+});
+
+
+$("#kk1").click(function() {
+    $("#kk1").hide();
+    $("#he").show();
+});
+
+$("#jb1").click(function() {
+    $("#jb1").hide();
+    $("#he").show();
 });
 
 
